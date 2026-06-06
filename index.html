@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dessert Lab — Confeitaria de Autor em São Paulo, SP</title>
+  <meta name="description" content="Confeitaria de autor em São Paulo. Entremets, tartes e éclairs feitos à mão com técnicas clássicas francesas e ingredientes selecionados. Jardins, SP.">
+
+  <meta property="og:type"        content="website">
+  <meta property="og:title"       content="Dessert Lab — Confeitaria de Autor em São Paulo, SP">
+  <meta property="og:description" content="Confeitaria de autor em São Paulo. Entremets, tartes e éclairs feitos à mão com técnicas clássicas francesas e ingredientes selecionados. Jardins, SP.">
+  <meta property="og:image"       content="assets/og-placeholder.jpg">
+  <meta property="og:url"         content="https://dessertlab.com.br">
+  <meta property="og:locale"      content="pt_BR">
+  <meta property="og:site_name"   content="TEST_Dessert Lab">
+
+  <link rel="icon" href="assets/favicon.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400;1,600&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Bakery",
+    "name": "TEST_Dessert Lab",
+    "description": "Confeitaria de autor em São Paulo. Entremets, tartes e éclairs feitos à mão com técnicas clássicas francesas e ingredientes selecionados. Jardins, SP.",
+    "url": "https://dessertlab.com.br",
+    "telephone": "+",
+    "priceRange": "R$R$",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "",
+      "addressLocality": "São Paulo",
+      "addressRegion": "SP",
+      "postalCode": "01426-001",
+      "addressCountry": "BR"
+    },
+    "openingHours": "Ter–Dom  10h às 20h",
+    "servesCuisine": "Confeitaria de Autor",
+    "hasMenu": "https://dessertlab.com.br/#especialidades"
+  }
+  </script>
+<script>window.__imgFallback=function(img,label){img.onerror=null;img.alt=label||'';img.style.cssText='background:#e5e7eb;min-height:40px';img.src='data:image/svg+xml,%3Csvg xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22 viewBox%3D%220 0 1 1%22%3E%3C%2Fsvg%3E';};</script>
+</head>
+<body>
+
+  <!-- ══════════════════════════════════
+       1. NAVBAR
+  ══════════════════════════════════ -->
+  <nav class="navbar" id="top" aria-label="Navegação principal">
+    <div class="container nav-inner">
+      <a href="#top" class="nav-logo" aria-label="TEST_Dessert Lab — início da página">
+        <span class="nav-logo-name">TEST_Dessert Lab</span>
+        <span class="nav-logo-sub">Confeitaria de autor</span>
+      </a>
+      <ul class="nav-links" role="list">
+        <li><a href="#chef">Chef</a></li>
+        <li><a href="#especialidades">Especialidades</a></li>
+        <li><a href="#encomendar">Encomendas</a></li>
+        <li><a href="#horarios">Contato</a></li>
+      </ul>
+      <a href="https://wa.me/"
+         class="nav-cta"
+         target="_blank" rel="noopener"
+         aria-label="Fale com o Dessert Lab pelo WhatsApp">
+        <span data-icon="whatsapp" aria-hidden="true"></span>
+        Fale com a gente
+      </a>
+      <button class="nav-toggle" aria-label="Abrir menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ══════════════════════════════════
+       2. HERO
+  ══════════════════════════════════ -->
+  <section class="hero" aria-labelledby="hero-heading">
+    <div class="container hero-grid">
+
+      <div class="hero-text">
+        <p class="eyebrow fade-up">CONFEITARIA DE AUTOR &middot; São Paulo, SP</p>
+        <h1 id="hero-heading" class="hero-title fade-up fade-up-d1">TEST_Dessert Lab</h1>
+        <p class="hero-tagline fade-up fade-up-d2">Confeitaria de autor</p>
+        <div class="hero-actions fade-up fade-up-d3">
+          <a href="https://wa.me/"
+             class="cta-primary"
+             target="_blank" rel="noopener"
+             aria-label="Fazer pedido pelo WhatsApp">
+            <span data-icon="whatsapp" aria-hidden="true"></span>
+            Fale com a gente
+          </a>
+          <a href="#especialidades" class="cta-ghost">
+            Ver especialidades
+            <span data-icon="arrow-right" aria-hidden="true"></span>
+          </a>
+        </div>
+        <p class="hero-note fade-up fade-up-d4">
+          <span data-icon="star" aria-hidden="true"></span>
+          Chef Patissier &mdash; Le Cordon Bleu Paris
+        </p>
+      </div>
+
+      <div class="hero-visual">
+        <div class="img-fallback hero-img-wrap">
+          <img src="https://8ispuxmgjxgu2r5q.public.blob.vercel-storage.com/stock-photos/pasticcerie/hero/pasticcerie-hero-06.webp"
+               alt="Entremet de caramelo do Dessert Lab, confeitaria de autor em São Paulo"
+               width="700" height="933"
+               loading="eager"
+               onerror="window.__imgFallback(this,'TEST_Dessert Lab')">
+        </div>
+        <div class="hero-accent-line" aria-hidden="true"></div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════
+       3. CHEF & FILOSOFIA
+  ══════════════════════════════════ -->
+  <section class="chef" id="chef" aria-labelledby="chef-heading">
+    <div class="container chef-grid">
+
+      <div class="chef-visual">
+        <div class="img-fallback chef-img-wrap">
+          <img src="https://8ispuxmgjxgu2r5q.public.blob.vercel-storage.com/stock-photos/pasticcerie/equipe/pasticcerie-equipe-04.webp"
+               alt="Chef Patissier ao trabalho no Dessert Lab"
+               width="560" height="700"
+               loading="lazy"
+               onerror="window.__imgFallback(this,'Chef Patissier')">
+        </div>
+        <div class="chef-img-accent" aria-hidden="true"></div>
+      </div>
+
+      <div class="chef-text fade-up">
+        <span class="eyebrow">CHEF &amp; FILOSOFIA</span>
+        <h2 id="chef-heading" class="chef-heading">Chef Patissier</h2>
+        <p class="chef-bio">Formado pelo Le Cordon Bleu Paris, o Chef traduz técnicas clássicas francesas em criações contemporâneas. Cada peça é pensada como uma composição sensorial, da escolha dos ingredientes ao acabamento final. Para ele, confeitaria é a interseção entre precisão técnica e emoção.</p>
+        <blockquote class="chef-signature">"A confeitaria perfeita existe quando técnica e sentimento são inseparáveis."</blockquote>
+        <div class="chef-valores">
+          <div class="valor-item">
+            <div class="valor-icon" aria-hidden="true">
+              <span data-icon="chef-hat"></span>
+            </div>
+            <div>
+              <strong>Técnica Clássica</strong>
+              <span>Formação Le Cordon Bleu aplicada a cada criação</span>
+            </div>
+          </div>
+          <div class="valor-item">
+            <div class="valor-icon" aria-hidden="true">
+              <span data-icon="leaf"></span>
+            </div>
+            <div>
+              <strong>Ingredientes Selecionados</strong>
+              <span>Origens únicas, sazonalidade respeitada</span>
+            </div>
+          </div>
+          <div class="valor-item">
+            <div class="valor-icon" aria-hidden="true">
+              <span data-icon="star"></span>
+            </div>
+            <div>
+              <strong>Autoria Sensorial</strong>
+              <span>Cada peça é uma composição visual e gustativa</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════
+       SCROLL INTRO — frase editorial
+       (antes da scroll animation)
+  ══════════════════════════════════ -->
+  <section class="scroll-intro" aria-label="Filosofia de criação">
+    <div class="container">
+      <p class="eyebrow fade-up">NOSSA FILOSOFIA</p>
+      <h2 class="scroll-intro-headline fade-up fade-up-d1">Feito à mão. Sentido em cada detalhe.</h2>
+      <p class="scroll-intro-subline fade-up fade-up-d2">Da sac-à-poche ao prato, técnica e sensibilidade a cada criação.</p>
+      <div class="scroll-intro-ornament fade-up fade-up-d3" aria-hidden="true">
+        <span data-icon="sparkle"></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════
+       4. SCROLL ANIMATION — food-dessert
+  ══════════════════════════════════ -->
+  <section class="scroll-animation" id="scroll-anim" aria-label="Sequência cinematográfica de confeitaria de autor">
+    <div class="scroll-anim-pin">
+      <canvas id="scroll-canvas" aria-hidden="true"></canvas>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════
+       5. ESPECIALIDADES
+  ══════════════════════════════════ -->
+  <section class="especialidades" id="especialidades" aria-labelledby="esp-heading">
+    <div class="container">
+      <div class="section-header fade-up">
+        <span class="eyebrow">ESPECIALIDADES</span>
+        <h2 id="esp-heading">Criações que definem o nosso sabor.</h2>
+        <p class="section-lede">Cada peça é desenvolvida com técnica francesa e sensibilidade brasileira. Disponível na confeitaria ou por encomenda.</p>
+      </div>
+      <div class="especialidades-grid">
+        <article class="esp-card stagger-card"
+                 style="transition-delay: calc(var(--anim-stagger) * 0)"
+                 aria-labelledby="esp-0-nome">
+          <div class="esp-img-wrap img-fallback">
+            <img src="https://8ispuxmgjxgu2r5q.public.blob.vercel-storage.com/stock-photos/pasticcerie/ambiente/pasticcerie-ambiente-15.webp"
+                 alt="Entremet Caramelo Fleur de Sel — especialidade do TEST_Dessert Lab"
+                 width="480" height="360"
+                 loading="lazy"
+                 onerror="window.__imgFallback(this,'Entremet Caramelo Fleur de Sel')">
+          </div>
+          <div class="esp-info">
+            <h3 class="esp-name" id="esp-0-nome">Entremet Caramelo Fleur de Sel</h3>
+            <p class="esp-desc">Mousse de caramelo artesanal, biscuit de amêndoa tostado, cobertura espelho âmbar. Uma peça que equilibra doçura e mineralidade.</p>
+            <p class="esp-price">
+              <span data-icon="tag" aria-hidden="true"></span>
+              R$ 42
+            </p>
+          </div>
+        </article>
+        <article class="esp-card stagger-card"
+                 style="transition-delay: calc(var(--anim-stagger) * 1)"
+                 aria-labelledby="esp-1-nome">
+          <div class="esp-img-wrap img-fallback">
+            <img src="https://8ispuxmgjxgu2r5q.public.blob.vercel-storage.com/stock-photos/pasticcerie/detalhe/pasticcerie-detalhe-15.webp"
+                 alt="Tarte de Limão Siciliano — especialidade do TEST_Dessert Lab"
+                 width="480" height="360"
+                 loading="lazy"
+                 onerror="window.__imgFallback(this,'Tarte de Limão Siciliano')">
+          </div>
+          <div class="esp-info">
+            <h3 class="esp-name" id="esp-1-nome">Tarte de Limão Siciliano</h3>
+            <p class="esp-desc">Creme de limão siciliano sobre massa sablée crocante, finalizada com merengue italiano tostado na hora.</p>
+            <p class="esp-price">
+              <span data-icon="tag" aria-hidden="true"></span>
+              R$ 28
+            </p>
+          </div>
+        </article>
+        <article class="esp-card stagger-card"
+                 style="transition-delay: calc(var(--anim-stagger) * 2)"
+                 aria-labelledby="esp-2-nome">
+          <div class="esp-img-wrap img-fallback">
+            <img src="https://8ispuxmgjxgu2r5q.public.blob.vercel-storage.com/stock-photos/pasticcerie/equipe/pasticcerie-equipe-06.webp"
+                 alt="Éclair de Pistache — especialidade do TEST_Dessert Lab"
+                 width="480" height="360"
+                 loading="lazy"
+                 onerror="window.__imgFallback(this,'Éclair de Pistache')">
+          </div>
+          <div class="esp-info">
+            <h3 class="esp-name" id="esp-2-nome">Éclair de Pistache</h3>
+            <p class="esp-desc">Massa choux artesanal recheada com creme de pistache de origem única, glaze verde-esmeralda e granella.</p>
+            <p class="esp-price">
+              <span data-icon="tag" aria-hidden="true"></span>
+              R$ 22
+            </p>
+          </div>
+        </article>
+        <article class="esp-card stagger-card"
+                 style="transition-delay: calc(var(--anim-stagger) * 3)"
+                 aria-labelledby="esp-3-nome">
+          <div class="esp-img-wrap img-fallback">
+            <img src="https://8ispuxmgjxgu2r5q.public.blob.vercel-storage.com/stock-photos/pasticcerie/ambiente/pasticcerie-ambiente-13.webp"
+                 alt="Paris-Brest — especialidade do TEST_Dessert Lab"
+                 width="480" height="360"
+                 loading="lazy"
+                 onerror="window.__imgFallback(this,'Paris-Brest')">
+          </div>
+          <div class="esp-info">
+            <h3 class="esp-name" id="esp-3-nome">Paris-Brest</h3>
+            <p class="esp-desc">Anel de pâte à choux com creme mousseline de avelã pralinée, decorado com amêndoas laminadas tostadas.</p>
+            <p class="esp-price">
+              <span data-icon="tag" aria-hidden="true"></span>
+              R$ 26
+            </p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════
+       6. CRIACOES SAZONAIS
+  ══════════════════════════════════ -->
+  <section class="sazonais" id="sazonais" aria-labelledby="sazonais-heading">
+    <div class="container">
+      <div class="section-header fade-up">
+        <span class="eyebrow">TEMPORADA</span>
+        <h2 id="sazonais-heading">Criações da Estação</h2>
+        <p class="section-lede">O que está fresco e disponível agora no Dessert Lab.</p>
+      </div>
+      <div class="sazonais-list">
+        <div class="sazonal-item fade-up" style="transition-delay: calc(var(--anim-stagger) * 0)">
+          <div class="sazonal-icon" aria-hidden="true">
+            <span data-icon="leaf"></span>
+          </div>
+          <div class="sazonal-text">
+            <h3 class="sazonal-name">Tarte de Maracujá com Coco</h3>
+            <p class="sazonal-desc">Curd de maracujá fresco sobre frangipane de coco, massa sablée e cobertura de gel passion.</p>
+          </div>
+          <div class="sazonal-status sazonal-status--available"
+               aria-label="Disponível">
+            <span data-icon="check-circle" aria-hidden="true"></span>
+            Disponível
+          </div>
+        </div>
+        <div class="sazonal-item fade-up" style="transition-delay: calc(var(--anim-stagger) * 1)">
+          <div class="sazonal-icon" aria-hidden="true">
+            <span data-icon="leaf"></span>
+          </div>
+          <div class="sazonal-text">
+            <h3 class="sazonal-name">Verrine de Frutas Vermelhas</h3>
+            <p class="sazonal-desc">Camadas de mousse de framboesa, geleia de morango e chantilly de baunilha Madagascar.</p>
+          </div>
+          <div class="sazonal-status sazonal-status--available"
+               aria-label="Disponível">
+            <span data-icon="check-circle" aria-hidden="true"></span>
+            Disponível
+          </div>
+        </div>
+        <div class="sazonal-item fade-up" style="transition-delay: calc(var(--anim-stagger) * 2)">
+          <div class="sazonal-icon" aria-hidden="true">
+            <span data-icon="leaf"></span>
+          </div>
+          <div class="sazonal-text">
+            <h3 class="sazonal-name">Entremet de Chocolate e Café</h3>
+            <p class="sazonal-desc">Mousse de chocolate 70% cacau com insert de creme de café arábica, biscuit Joconde e glacê espelho.</p>
+          </div>
+          <div class="sazonal-status sazonal-status--esgotado"
+               aria-label="Esgotado">
+            <span data-icon="x-circle" aria-hidden="true"></span>
+            Esgotado
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════
+       7. ENCOMENDAR / PARA EVENTOS
+  ══════════════════════════════════ -->
+  <section class="encomendar" id="encomendar" aria-labelledby="encomendar-heading">
+    <div class="container encomendar-grid">
+
+      <div class="encomendar-text fade-up">
+        <span class="eyebrow">ENCOMENDAS &amp; EVENTOS</span>
+        <h2 id="encomendar-heading" class="encomendar-heading">
+          Criamos peças exclusivas para o seu momento.
+        </h2>
+        <p class="encomendar-desc">Criamos peças exclusivas para casamentos, aniversários e eventos corporativos. Cada projeto começa por uma consulta, onde definimos ingredientes, estética e conceito. Prazo mínimo de 5 dias úteis para encomendas individuais; consulte-nos para eventos.</p>
+        <div class="encomendar-cta">
+          <a href="https://wa.me/"
+             class="cta-primary"
+             target="_blank" rel="noopener"
+             aria-label="Encomendar pelo WhatsApp">
+            <span data-icon="whatsapp" aria-hidden="true"></span>
+            Encomendar agora
+          </a>
+        </div>
+      </div>
+
+      <div class="encomendar-visual fade-up fade-up-d1">
+        <div class="encomendar-card">
+          <div class="encomendar-card-icon" aria-hidden="true">
+            <span data-icon="gift"></span>
+          </div>
+          <p class="encomendar-card-title">O que podemos criar para você</p>
+          <ul class="encomendar-card-list" aria-label="Tipos de encomenda disponíveis">
+            <li>
+              <span data-icon="check-circle" aria-hidden="true"></span>
+              Bolos e tortas para casamentos
+            </li>
+            <li>
+              <span data-icon="check-circle" aria-hidden="true"></span>
+              Entremets personalizados para aniversários
+            </li>
+            <li>
+              <span data-icon="check-circle" aria-hidden="true"></span>
+              Mesas de desserts para eventos corporativos
+            </li>
+            <li>
+              <span data-icon="check-circle" aria-hidden="true"></span>
+              Caixas presentes com seleção do Chef
+            </li>
+            <li>
+              <span data-icon="calendar" aria-hidden="true"></span>
+              Consulta e orçamento via WhatsApp
+            </li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════
+       8. HORARIOS + LOCALIZACAO (ESTÁTICO)
+  ══════════════════════════════════ -->
+  <section class="horarios" id="horarios" aria-labelledby="horarios-heading">
+    <div class="container horarios-grid">
+
+      <div class="horarios-info fade-up">
+        <span class="eyebrow">HORÁRIOS &amp; LOCALIZAÇÃO</span>
+        <h2 id="horarios-heading" class="horarios-heading">Venha nos visitar.</h2>
+
+        <div class="horarios-detail-block">
+
+          <div class="horarios-detail">
+            <span class="horarios-icon" data-icon="map-pin" aria-hidden="true"></span>
+            <address>
+              <p></p>
+              <p>São Paulo &mdash; SP</p>
+              <p>CEP 01426-001</p>
+            </address>
+          </div>
+
+          <div class="horarios-detail">
+            <span class="horarios-icon" data-icon="clock" aria-hidden="true"></span>
+            <ul class="hours-list" role="list" aria-label="Horários de funcionamento">
+              <li class="hour-row">
+                <span class="hour-day">Ter a Dom</span>
+                <span class="hour-time">Ter–Dom  10h às 20h</span>
+              </li>
+              <li class="hour-row">
+                <span class="hour-day">Segunda-feira</span>
+                <span class="hour-time">Fechado</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="horarios-detail">
+            <span class="horarios-icon" data-icon="phone" aria-hidden="true"></span>
+            <a href="https://wa.me/" target="_blank" rel="noopener" aria-label="WhatsApp do Dessert Lab">
+              WhatsApp: (11) 98765-4321
+            </a>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="horarios-map fade-up fade-up-d1" role="img" aria-label="Localização: , São Paulo">
+        <div class="horarios-map-pin" aria-hidden="true">
+          <span data-icon="map-pin"></span>
+        </div>
+        <p class="horarios-map-label">TEST_Dessert Lab</p>
+        <p class="horarios-map-sub"></p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════
+       9. CTA WHATSAPP FINAL
+  ══════════════════════════════════ -->
+  <section class="cta-final" aria-labelledby="cta-final-heading">
+    <div class="container cta-final-inner">
+      <span class="cta-final-eyebrow fade-up">FAZER UM PEDIDO</span>
+      <h2 id="cta-final-heading" class="cta-final-heading fade-up fade-up-d1">
+        Que tal uma criação feita especialmente para você?
+      </h2>
+      <p class="cta-final-sub fade-up fade-up-d2">
+        Consulte disponibilidade e encomende pelo WhatsApp.<br>
+        Respondemos em até 24 horas úteis.
+      </p>
+      <div class="fade-up fade-up-d3">
+        <a href="https://wa.me/"
+           class="cta-primary cta-primary--large cta-primary--light"
+           target="_blank" rel="noopener"
+           aria-label="Fazer pedido pelo WhatsApp">
+          <span data-icon="whatsapp" aria-hidden="true"></span>
+          Fazer um pedido
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════
+       10. FOOTER
+  ══════════════════════════════════ -->
+  <footer class="footer" aria-label="Rodapé do Dessert Lab">
+    <div class="container footer-inner">
+
+      <div class="footer-brand">
+        <span class="footer-logo-name">TEST_Dessert Lab</span>
+        <p class="footer-tagline">Confeitaria de autor</p>
+        <nav class="footer-social" aria-label="Redes sociais">
+          <a href="https://wa.me/"
+             class="footer-social-link"
+             target="_blank" rel="noopener"
+             aria-label="WhatsApp do TEST_Dessert Lab">
+            <span data-icon="whatsapp" aria-hidden="true"></span>
+          </a>
+          <a href="https://instagram.com/dessertlabsp"
+             class="footer-social-link"
+             target="_blank" rel="noopener"
+             aria-label="Instagram do TEST_Dessert Lab">
+            <span data-icon="instagram" aria-hidden="true"></span>
+          </a>
+        </nav>
+      </div>
+
+      <nav class="footer-nav" aria-label="Links do rodapé">
+        <p class="footer-col-title">Menu</p>
+        <ul role="list">
+          <li><a href="#chef">Chef &amp; Filosofia</a></li>
+          <li><a href="#especialidades">Especialidades</a></li>
+          <li><a href="#sazonais">Criações Sazonais</a></li>
+          <li><a href="#encomendar">Encomendas</a></li>
+          <li><a href="#horarios">Horários &amp; Localização</a></li>
+        </ul>
+      </nav>
+
+      <address class="footer-address">
+        <p class="footer-col-title">Contato</p>
+        <p></p>
+        <p>São Paulo &mdash; SP</p>
+        <p>CEP 01426-001</p>
+        <a href="https://wa.me/" target="_blank" rel="noopener">
+          (11) 98765-4321
+        </a>
+      </address>
+
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <span>&copy; <span data-year>2026</span> TEST_Dessert Lab. Todos os direitos reservados.</span>
+        <span>São Paulo, SP</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
